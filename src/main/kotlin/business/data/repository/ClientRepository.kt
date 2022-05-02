@@ -4,11 +4,10 @@ import business.data.models.Client
 
 interface ClientRepository {
 
-	 var client :Client
+	// Get Client
+	suspend fun getClient(clientId: String) : Client?
 
-	fun getStudentAge(studentId: String): Int {
-		return getAge(client.clientId)
-	}
-
+	// Calculate Student Age from the StudentId
+	suspend fun getStudentAge(studentId: String): Int
 
 }

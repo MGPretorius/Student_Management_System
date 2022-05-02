@@ -1,6 +1,7 @@
 package business.data.models
 
 data class Client(
+	val id: String,
 	val name: String,
 	val surname: String,
 	val gender: String? = null,

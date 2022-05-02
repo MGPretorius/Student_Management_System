@@ -3,6 +3,7 @@ import business.data.models.Student
 
 fun main(args: Array<String>) {
 	val clientJohn = Client(
+		id = "",
 		name = "John",
 		surname = "Jackson",
 		gender = "M",
@@ -14,6 +15,7 @@ fun main(args: Array<String>) {
 		name = "John",
 		surname = "Jackson",
 		gender = "M",
+		age = 0,
 		phoneNumber = "0873627365",
 		studentId = "9611225083083"
 	)
@@ -24,6 +26,6 @@ fun main(args: Array<String>) {
 	//John.makeStudent()
 	//John.isStudent().setLessons(30, "4:00")
 
-	john.isStudent().lessonAttended(true, false, true, true, "Positive")
+//	john.isStudent().lessonAttended(true, false, true, true, "Positive")
 
 }
