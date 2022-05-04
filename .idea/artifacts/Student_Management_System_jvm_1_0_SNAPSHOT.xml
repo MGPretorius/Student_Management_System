@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Student_Management_System-jvm-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="Student_Management_System-jvm-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="Student_Management_System.jvmMain" />
+    </root>
+  </artifact>
+</component>
